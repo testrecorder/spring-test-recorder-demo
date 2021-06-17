@@ -1,6 +1,6 @@
 package com.onushi.springtestrecorder.demo;
 
-import com.onushi.testrecorder.aspect.RecordTest;
+import com.onushi.springtestrecorder.aspect.RecordTest;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

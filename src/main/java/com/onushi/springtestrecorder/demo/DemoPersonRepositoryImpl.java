@@ -1,6 +1,6 @@
 package com.onushi.springtestrecorder.demo;
 
-import com.onushi.testrecorder.aspect.RecordMockForTest;
+import com.onushi.springtestrecorder.aspect.RecordMockForTest;
 import org.springframework.stereotype.Repository;
 
 import java.text.SimpleDateFormat;

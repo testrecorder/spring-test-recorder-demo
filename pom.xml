@@ -34,7 +34,7 @@
         </dependency>
         <dependency>
             <groupId>com.onushi</groupId>
-            <artifactId>testrecorder</artifactId>
+            <artifactId>spring-test-recorder</artifactId>
             <version>0.1.0</version>
         </dependency>
     </dependencies>
