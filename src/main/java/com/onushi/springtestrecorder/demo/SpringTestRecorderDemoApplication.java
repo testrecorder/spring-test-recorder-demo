@@ -7,9 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(basePackages={"com.onushi.springtestrecorder.demo", "com.onushi.springtestrecorder"})
 public class SpringTestRecorderDemoApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(SpringTestRecorderDemoApplication.class, args);
     }
-
 }
