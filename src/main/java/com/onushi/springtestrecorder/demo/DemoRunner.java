@@ -20,7 +20,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-// TODO IB !!!! add simple example and complex example
 @Component
 public class DemoRunner implements CommandLineRunner {
     private final DemoPersonService demoPersonService;
