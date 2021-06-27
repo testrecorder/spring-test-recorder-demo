@@ -5,7 +5,7 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo;
+package com.onushi.springtestrecorder.demo.example2;
 
 import com.onushi.springtestrecorder.aspect.RecordTest;
 import org.springframework.stereotype.Service;
@@ -22,10 +22,6 @@ public class DemoPersonService {
         this.demoPersonRepository = demoPersonRepository;
     }
 
-    public DemoPerson loadPerson(int id) throws Exception {
-        return demoPersonRepository.getPersonFromDB(id);
-    }
-
     @RecordTest
     public Map<Integer, DemoPerson> loadPersons(List<Integer> personIds) throws Exception {
         Map<Integer, DemoPerson> result = new HashMap<>();
@@ -37,15 +33,6 @@ public class DemoPersonService {
 
         }
         return result;
-    }
-
-    public String getPersonFirstName(int id) {
-        try {
-            DemoPerson demoPerson = demoPersonRepository.getPersonFromDB(id);
-            return demoPerson.getFirstName();
-        } catch (Exception ex) {
-            return null;
-        }
     }
 }
 

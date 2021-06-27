@@ -5,7 +5,7 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo;
+package com.onushi.springtestrecorder.demo.example2;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,8 +22,4 @@ public class DemoPerson {
     private String firstName;
     private String lastName;
     private Date dateOfBirth;
-
-    private DemoPerson(String firstName) {
-        this.firstName = firstName;
-    }
 }

@@ -7,6 +7,9 @@
 
 package com.onushi.springtestrecorder.demo;
 
+import com.onushi.springtestrecorder.demo.example2.DemoPerson;
+import com.onushi.springtestrecorder.demo.example2.DemoPersonRepositoryImpl;
+import com.onushi.springtestrecorder.demo.example2.DemoPersonService;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;

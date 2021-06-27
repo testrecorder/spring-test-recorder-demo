@@ -5,11 +5,12 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo;
+package com.onushi.springtestrecorder.demo.example2;
 
 import com.onushi.springtestrecorder.aspect.RecordMockForTest;
 import org.springframework.stereotype.Repository;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.NoSuchElementException;
 
@@ -18,7 +19,7 @@ import java.util.NoSuchElementException;
 @Repository
 public class DemoPersonRepositoryImpl implements DemoPersonRepository {
     @Override
-    public DemoPerson getPersonFromDB(int id) throws Exception {
+    public DemoPerson getPersonFromDB(int id) throws NoSuchElementException, ParseException {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         if (id == 1) {
             return DemoPerson.builder()
@@ -36,10 +37,5 @@ public class DemoPersonRepositoryImpl implements DemoPersonRepository {
         } else {
             throw new NoSuchElementException();
         }
-    }
-
-    @Override
-    public int getPersonsCountFromDB(String firstParam, String secondParam) {
-        return 2;
     }
 }
