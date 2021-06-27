@@ -15,8 +15,6 @@ import java.util.List;
 import java.util.Map;
 
 // TODO IB !!!! add simple example and complex example
-// TODO IB !!!! add a README.md for the demo
-// TODO IB !!!! can I have more README.md to avoid having too much content in a single page?
 @Component
 public class DemoRunner implements CommandLineRunner {
     private final DemoPersonService demoPersonService;
