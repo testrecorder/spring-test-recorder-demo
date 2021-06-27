@@ -5,9 +5,9 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo.example2;
+package org.springtestrecorder.demo.example2;
 
-import com.onushi.springtestrecorder.aspect.RecordMockForTest;
+import org.springtestrecorder.aspect.RecordMockForTest;
 import org.springframework.stereotype.Repository;
 
 import java.text.ParseException;

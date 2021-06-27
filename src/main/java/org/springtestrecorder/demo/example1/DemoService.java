@@ -5,15 +5,15 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo.example1;
+package org.springtestrecorder.demo.example1;
 
-import com.onushi.springtestrecorder.aspect.RecordTest;
+import org.springtestrecorder.aspect.RecordTest;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 @Component
-public class SampleService {
+public class DemoService {
     @RecordTest
     public Date minDate(Date date1, Date date2) {
         if (date1 == null) {

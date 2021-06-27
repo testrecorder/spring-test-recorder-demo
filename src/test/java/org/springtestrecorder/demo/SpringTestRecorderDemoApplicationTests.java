@@ -5,12 +5,13 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo;
+package org.springtestrecorder.demo;
 
-import com.onushi.springtestrecorder.demo.example2.DemoPerson;
-import com.onushi.springtestrecorder.demo.example2.DemoPersonRepositoryImpl;
-import com.onushi.springtestrecorder.demo.example2.DemoPersonService;
+import org.springtestrecorder.demo.example2.DemoPerson;
+import org.springtestrecorder.demo.example2.DemoPersonRepositoryImpl;
+import org.springtestrecorder.demo.example2.DemoPersonService;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 import java.util.Arrays;

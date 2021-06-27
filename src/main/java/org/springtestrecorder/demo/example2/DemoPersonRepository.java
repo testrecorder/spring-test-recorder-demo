@@ -5,7 +5,7 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo.example2;
+package org.springtestrecorder.demo.example2;
 
 import java.text.ParseException;
 import java.util.NoSuchElementException;

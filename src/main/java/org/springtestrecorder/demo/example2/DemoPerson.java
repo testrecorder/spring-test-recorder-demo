@@ -5,7 +5,7 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo.example2;
+package org.springtestrecorder.demo.example2;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

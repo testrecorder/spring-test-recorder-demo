@@ -5,9 +5,9 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo.example2;
+package org.springtestrecorder.demo.example2;
 
-import com.onushi.springtestrecorder.aspect.RecordTest;
+import org.springtestrecorder.aspect.RecordTest;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

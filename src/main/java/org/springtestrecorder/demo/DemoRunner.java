@@ -5,11 +5,11 @@
  *
  */
 
-package com.onushi.springtestrecorder.demo;
+package org.springtestrecorder.demo;
 
-import com.onushi.springtestrecorder.demo.example1.SampleService;
-import com.onushi.springtestrecorder.demo.example2.DemoPerson;
-import com.onushi.springtestrecorder.demo.example2.DemoPersonService;
+import org.springtestrecorder.demo.example1.DemoService;
+import org.springtestrecorder.demo.example2.DemoPerson;
+import org.springtestrecorder.demo.example2.DemoPersonService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -23,11 +23,11 @@ import java.util.Map;
 @Component
 public class DemoRunner implements CommandLineRunner {
     private final DemoPersonService demoPersonService;
-    private final SampleService sampleService;
+    private final DemoService demoService;
 
-    public DemoRunner(DemoPersonService demoPersonService, SampleService sampleService) {
+    public DemoRunner(DemoPersonService demoPersonService, DemoService demoService) {
         this.demoPersonService = demoPersonService;
-        this.sampleService = sampleService;
+        this.demoService = demoService;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class DemoRunner implements CommandLineRunner {
         Date firstDate = simpleDateFormat.parse("2021-01-01");
         Date secondDate = simpleDateFormat.parse("2021-02-02");
 
-        Date minDate = sampleService.minDate(firstDate, secondDate);
+        Date minDate = demoService.minDate(firstDate, secondDate);
     }
 
 
